@@ -1,0 +1,29 @@
+.container {
+    width: 300px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mute {
+    text-align: right;
+    margin: 0;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.username {
+    margin: 0;
+}
+
+/* .css -> global css fayllari */
+/* .module.css -> local css fayli */
