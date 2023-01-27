@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <h1>Salam React.js</h1>
+      <p>some description</p>
+      <Footer />
+    </>
   );
 }
 
 export default App;
+// default -> export default App;   -> import App from './filePath'
+// named -> export const name='ali'     --> import {name as test} from "./filePath"
