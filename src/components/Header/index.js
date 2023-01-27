@@ -1,13 +1,11 @@
-import logo from "../logo.svg"
+import logo from "../../logo.svg"
+import styles from './index.module.css'
 
 function Header() {
-    return <header>
+    return <header className={styles.header}>
         <h1>salam</h1>
         <img
-            style={{
-                width: 100,
-                height: 100,
-            }}
+            className={styles.img}
             src={logo} alt="mern02 react logo" />
     </header>
 }
