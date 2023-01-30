@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import GoogleMeetCard from './components/GoogleMeetCard'
-import lionImg from './img/alion_afro.jpg'
 
 function App() {
   return (
@@ -16,12 +15,14 @@ function App() {
         justifyContent: 'center',
         gap: 20
       }}>
-        <GoogleMeetCard name="nicat valiyev" sekil={lionImg} />
-        <GoogleMeetCard name="samir mamedov" sekil={lionImg} />
-        <GoogleMeetCard name="abbasova 22" sekil={lionImg} />
-        <GoogleMeetCard name="Ravan Rahimli" sekil={lionImg} />
+        <GoogleMeetCard name="nicat valiyev" sekil='/img/alion_afro.jpg' />
+        <GoogleMeetCard name="samir mamedov" sekil='/img/alion_afro.jpg' />
+        <GoogleMeetCard name="abbasova 22" sekil='/img/alion_afro.jpg' />
+        <GoogleMeetCard name="Ravan Rahimli" sekil='/img/alion_afro.jpg' />
       </div>
-      <Footer />
+      <div style={{ width: 300 }}>
+        <Footer />
+      </div>
     </>
   );
 }
