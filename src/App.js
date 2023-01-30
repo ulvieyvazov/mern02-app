@@ -3,12 +3,15 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Counter from "./components/Counter";
 import GoogleMeetCard from './components/GoogleMeetCard'
+import ShowName from "./components/ShowName";
+// shift+alt+o
 
 function App() {
   return (
     <>
+      <ShowName />
       {/* <Header /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <h1 className="test">Salam React.js</h1>
       <p>some description</p>
       <div style={{
