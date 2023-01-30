@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Counter from "./components/Counter";
 import GoogleMeetCard from './components/GoogleMeetCard'
 
 function App() {
   return (
     <>
-      <Header />
-      <h1 className="test">Salam React.js</h1>
+      {/* <Header /> */}
+      <Counter />
+      {/* <h1 className="test">Salam React.js</h1>
       <p>some description</p>
       <div style={{
         display: 'flex',
@@ -22,7 +24,7 @@ function App() {
       </div>
       <div style={{ width: 300 }}>
         <Footer />
-      </div>
+      </div> */}
     </>
   );
 }
