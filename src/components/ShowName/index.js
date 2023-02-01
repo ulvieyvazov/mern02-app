@@ -4,7 +4,6 @@ function ShowName() {
     const [value, setValue] = useState("")
 
     return <>
-        {/* controlled inputs */}
         <input type="text" value={value} onChange={(e) => {
             setValue(e.target.value)
         }}
@@ -17,6 +16,3 @@ function ShowName() {
     </>
 }
 export default ShowName;
-// 1. react proyekti yaratmaq
-// 2. Counter, showName  her ikisini yazmaq
-// 3. ilk task
