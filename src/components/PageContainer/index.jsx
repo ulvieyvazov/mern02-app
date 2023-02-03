@@ -5,7 +5,7 @@ const PageContainer = ({ children }) => {
                 <a href="/">Home</a>
                 <a href="/about">Haqqimizda</a>
                 <a href="/news">Xeberler</a>
-                <a href="/aybeniz">Nicatin sehifesi</a>
+                <a href="/nicat">Nicatin sehifesi</a>
             </nav>
             <main>
                 {children}
